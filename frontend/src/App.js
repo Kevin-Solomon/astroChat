@@ -1,6 +1,12 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import { Auth } from './pages/Auth/Auth.tsx';
 function App() {
-  return <div className="App"></div>;
+  return (
+    <Routes>
+      <Route path="/" element={<Auth />} />
+    </Routes>
+  );
 }
 
 export default App;
