@@ -11,7 +11,7 @@ import {
 
 const Auth: React.FC = () => {
   return (
-    <Box w="100%" p={4} color="black" h="100vh">
+    <Box maxW="20rem" w="100%" p={4} color="black" h="100vh">
       <Center h="100%" color="black">
         <Tabs bg="off-white" w="70%" align="center">
           <TabList>
